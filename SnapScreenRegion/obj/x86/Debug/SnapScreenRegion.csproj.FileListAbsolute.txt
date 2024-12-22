@@ -1,0 +1,6 @@
+/home/mike/Projects/SnapScreenRegion/SnapScreenRegion/bin/Debug/SnapScreenRegion.exe
+/home/mike/Projects/SnapScreenRegion/SnapScreenRegion/bin/Debug/SnapScreenRegion.pdb
+/home/mike/Projects/SnapScreenRegion/SnapScreenRegion/obj/x86/Debug/SnapScreenRegion.csproj.AssemblyReference.cache
+/home/mike/Projects/SnapScreenRegion/SnapScreenRegion/obj/x86/Debug/SnapScreenRegion.csproj.CoreCompileInputs.cache
+/home/mike/Projects/SnapScreenRegion/SnapScreenRegion/obj/x86/Debug/SnapScreenRegion.exe
+/home/mike/Projects/SnapScreenRegion/SnapScreenRegion/obj/x86/Debug/SnapScreenRegion.pdb

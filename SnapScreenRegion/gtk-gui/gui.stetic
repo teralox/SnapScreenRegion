@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="../bin/Debug/SnapScreenRegion.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="1206 886">
+    <property name="MemberName" />
+    <property name="Events">PointerMotionMask, PointerMotionHintMask, ButtonMotionMask, Button1MotionMask, Button2MotionMask, Button3MotionMask</property>
+    <property name="Title" translatable="yes">MainWindow</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <child>
+      <widget class="Gtk.Fixed" id="fixed1">
+        <property name="MemberName" />
+        <property name="Events">PointerMotionMask, PointerMotionHintMask, ButtonMotionMask, Button1MotionMask, Button2MotionMask, Button3MotionMask</property>
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.Button" id="SnapScreenButton">
+            <property name="MemberName" />
+            <property name="WidthRequest">150</property>
+            <property name="HeightRequest">60</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Snap Screen</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnSnapScreenButtonClicked" />
+          </widget>
+          <packing>
+            <property name="X">195</property>
+            <property name="Y">96</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="TopLabel">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Sreen Snap Region</property>
+          </widget>
+          <packing>
+            <property name="X">187</property>
+            <property name="Y">39</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Image" id="ImageCanvasPic">
+            <property name="MemberName" />
+            <property name="WidthRequest">800</property>
+            <property name="HeightRequest">500</property>
+          </widget>
+          <packing>
+            <property name="X">192</property>
+            <property name="Y">278</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>
