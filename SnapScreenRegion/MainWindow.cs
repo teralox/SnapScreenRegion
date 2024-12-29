@@ -7,6 +7,11 @@ using System.Threading;
 
 public partial class MainWindow : Gtk.Window
 {
+    // Variables for change
+    int xCurrent, yCurrent;
+    bool regionOn;
+    string currentState = "Blank";
+
     SnapScreenReg snapScren;
     public MainWindow() : base(Gtk.WindowType.Toplevel)
     {
